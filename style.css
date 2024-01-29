@@ -71,6 +71,7 @@ input {
   margin: 10px 0;
   text-align: center;
   border-radius: 6px;
+  cursor: default;
 }
 .forecast-section {
   display: flex;
@@ -87,7 +88,7 @@ input {
 .days-forecast {
   display: flex;
   flex-direction: row;
-  height: 150px;
+  height: 174px;
 }
 .day {
   width: 20%;
