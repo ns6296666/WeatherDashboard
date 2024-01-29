@@ -26,14 +26,17 @@
       <div class="card-body">
         <div class="cities">
           <h4>Search for City:</h4>
-          <input type="text" placeholder="London" />
-          <div class="searchButton"><button>Search</button></div>
+          <form action="" id="searchForm">
+            <input type="text" placeholder="London" id="cityInput" />
+            <div class="searchButton"><button>Search</button></div>
+          </form>
+
           <hr class="break-line" />
-          <ul class="cities-lists">
-            <li class="city">The Flight</li>
+          <ul class="cities-lists" id="cityList">
+            <!-- <li class="city">The Flight</li>
             <li class="city">The City</li>
             <li class="city">The Island</li>
-            <li class="city">The Food</li>
+            <li class="city">The Food</li> -->
           </ul>
         </div>
         <div class="forecast-section">
@@ -85,7 +88,7 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="weatherforecast.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
